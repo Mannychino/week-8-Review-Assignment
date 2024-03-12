@@ -1,0 +1,119 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   justify-content: center;
+ }
+
+ body {
+   background-color: hsl(216, 12%, 8%);
+   justify-content: center;
+
+ }
+
+ .cont {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100svh;
+ }
+
+ .form-container {
+   display: flex;
+   flex-direction: column;
+   border-radius: 16px;
+   text-align: left;
+   background-color: hsl(213, 19%, 18%);
+   max-width: 25rem;
+   width: 100%;
+   padding: 2rem;
+
+ }
+
+ .text1 {
+   font-size: 15px;
+   font-weight: 400px;
+   font-family: "Overpass", sans-serif;
+   text-align: left;
+   font-style: normal;
+   color:hsl(216, 12%, 54%);
+
+
+
+ }
+
+
+ .week8 {
+   font-family: "Overpass", sans-serif;
+   font-size: 30px;
+   font-weight: 700px;
+   font-style: normal;
+   text-align: left;
+   color:hsl(0, 0%, 100%);
+ }
+
+
+ .buttons-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .buttons-container button{
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(216, 12%, 54%);
+  padding: 1rem 1.2rem;
+  border: none;
+  color:(217, 12%, 63%);
+ }
+
+ .buttons-container button:hover{
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+ }
+
+ 
+
+ .submit-btn {
+   background-color: hsl(25, 97%, 53%);
+   color: hsl(0, 0%, 100%);
+   width: 100%;
+   border-radius: 25px;
+   border: none;
+   padding: 20px 80px;
+   margin-top: 20px;
+
+ }
+
+
+
+ .submit-btn:hover {
+   background-color: hsl(0, 0%, 100%);
+   color: hsl(25, 97%, 53%);
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+ }
+
+ .test-1 {
+
+   display: inline-block;
+   width: 50px;
+   /* Adjust the width and height to your desired size */
+   height: 50px;
+   border-radius: 50%;
+   /* This creates a circular shape */
+   background-color: #007bff;
+   /* Change the background color as needed */
+   color: white;
+   text-align: center;
+   line-height: 50px;
+   /* Center the text vertically */
+   text-decoration: none;
+   /* Remove underline */
+ }
